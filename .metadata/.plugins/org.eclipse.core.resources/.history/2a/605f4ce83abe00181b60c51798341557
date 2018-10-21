@@ -1,0 +1,8 @@
+
+public enum MonthEnum {
+	jan,feb,march,april
+	void m1(){
+		
+	}
+	;
+}

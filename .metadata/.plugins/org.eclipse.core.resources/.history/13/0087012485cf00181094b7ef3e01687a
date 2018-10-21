@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+
+		ArrayList list = new ArrayList(50);
+		list.add(1);
+		list.add("a");
+		list.add("c");
+		list.add(9);
+		list.add(1);
+		list.add(null);
+		System.out.println(list.lastIndexOf(1));
+	}
+}

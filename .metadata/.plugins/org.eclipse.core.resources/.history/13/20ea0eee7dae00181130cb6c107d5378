@@ -1,0 +1,15 @@
+public class Shedawig {
+
+	private int j;
+
+	void m1(int i) {
+      j=i;
+      System.out.println(this+"=========");
+	}
+
+	public static void main(String[] args) {
+       Shedawig shedawig=new Shedawig();
+       shedawig.m1(10);
+       System.out.println(shedawig);
+	}
+}

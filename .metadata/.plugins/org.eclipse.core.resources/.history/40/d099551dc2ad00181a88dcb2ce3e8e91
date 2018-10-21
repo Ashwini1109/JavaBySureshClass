@@ -1,0 +1,7 @@
+
+public class StaticInstanceControlFLow {
+   
+	int i=80;
+	
+	static int i=80;
+}

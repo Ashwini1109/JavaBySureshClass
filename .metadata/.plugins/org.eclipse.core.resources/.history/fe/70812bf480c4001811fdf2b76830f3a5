@@ -1,0 +1,13 @@
+public class ArrayExample {
+	public static void main(String[] args) {
+         
+		  int[] i;
+		  int []i1;
+		  int i2[];
+		  int[] j=new int[6];
+		  j[0]=1;
+		  j[1]=2;
+		  j[3]=4
+		  System.out.println(j[0]);
+	}
+}

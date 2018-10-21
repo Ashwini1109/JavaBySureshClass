@@ -1,0 +1,12 @@
+
+public interface I1 {
+
+}
+
+interface I2{
+	
+}
+
+interface i3 extends I1,{
+	
+}

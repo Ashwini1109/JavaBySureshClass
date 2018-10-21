@@ -1,0 +1,14 @@
+public class Shedawig {
+
+	private int i;
+
+	void m1(int i) {
+      this.i=i;
+	}
+
+	public static void main(String[] args) {
+       Shedawig shedawig=new Shedawig();
+       shedawig.m1(10);
+       System.out.println(this);
+	}
+}

@@ -1,0 +1,16 @@
+class Pt {
+
+	private void m1() {
+		System.out.println("parant");
+	}
+}
+
+class Ch extends Pt {
+	private void m1() {
+		System.out.println("parant");
+	}
+}
+
+public class MethodOverriding {
+
+}

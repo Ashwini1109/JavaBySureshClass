@@ -1,0 +1,10 @@
+public class AccessEnum {
+
+	public static void main(String[] args) {
+		MonthEnum jan = MonthEnum.apr;
+		
+		MonthEnum[] array=MonthEnum.values();
+		System.out.println(array);
+		System.out.println(jan.getMonth());
+	}
+}

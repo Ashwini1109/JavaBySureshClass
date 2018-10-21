@@ -1,0 +1,10 @@
+import java.beans.AppletInitializer;
+
+
+public class StaticBlock{
+  
+	
+	  static{
+		  System.out.println("abc");
+	  }
+}

@@ -1,0 +1,27 @@
+
+public class StaticInstanceControlFLow {
+   
+	int i=80;
+	
+	static int j=80;
+	
+	{
+		System.out.println("instance blocks");
+	}
+	
+	static{
+		System.out.println("static blocks");
+	}
+	
+	public StaticInstanceControlFLow() {
+		System.out.println("Constructor");
+	}
+	
+	static void m1(){
+		System.out.println("");
+	}
+	
+    void m2(){
+		
+	}
+}

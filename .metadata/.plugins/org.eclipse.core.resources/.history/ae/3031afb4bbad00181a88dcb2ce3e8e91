@@ -1,0 +1,24 @@
+import java.applet.Applet;
+import java.beans.AppletInitializer;
+import java.beans.beancontext.BeanContext;
+
+
+public class StaticBlock implements AppletInitializer{
+  
+	
+	  static{
+		  System.out.println("abc");
+	  }
+
+	@Override
+	public void initialize(Applet newAppletBean, BeanContext bCtxt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void activate(Applet newApplet) {
+		// TODO Auto-generated method stub
+		
+	}
+}

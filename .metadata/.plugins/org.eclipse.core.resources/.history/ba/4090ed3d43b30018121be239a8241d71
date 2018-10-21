@@ -1,0 +1,9 @@
+ abstract public class Child extends AbstractClass{
+
+	@Override
+	void m1() {
+		
+		
+	}
+
+}

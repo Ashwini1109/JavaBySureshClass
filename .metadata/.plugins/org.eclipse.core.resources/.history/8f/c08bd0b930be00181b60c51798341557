@@ -1,0 +1,17 @@
+public class AutoBoxing {
+	public static void main(String[] args) {
+       
+		  int i=10;
+		  Integer i2=Integer.valueOf(i);
+		  System.out.println(i2);
+		  
+		  Integer i3=i;  //autoboxing
+		  System.out.println(i3);
+		  
+		  int i4=i2.intValue();
+		  System.out.println(i4);
+		  
+		  
+		  int i5=i2;
+	}
+}

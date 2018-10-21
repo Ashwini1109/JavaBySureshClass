@@ -1,0 +1,8 @@
+
+public interface I1 {
+  int i=90;
+}
+
+interface I2{
+	int  i=80;
+}

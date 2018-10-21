@@ -1,0 +1,13 @@
+
+public enum MonthEnum {
+	
+	MonthEnum(){
+		System.out.println("con");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	jan,feb,march,april;
+}

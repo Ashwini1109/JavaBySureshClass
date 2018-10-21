@@ -1,0 +1,17 @@
+public class ExceptionJava {
+
+	public static void main(String[] args) {
+
+		for (int i = 0; i <= 5; i++) {
+			try {
+				if (i == 5) {
+					i = i / 0;
+				}
+			} catch (ArithmeticException e) {
+
+			} finally {
+				System.out.println("abs");
+			}
+		}
+	}
+}

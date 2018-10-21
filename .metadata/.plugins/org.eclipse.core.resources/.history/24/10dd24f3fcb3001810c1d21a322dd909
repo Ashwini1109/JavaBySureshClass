@@ -1,0 +1,17 @@
+
+public class WrapperCLaaaExample {
+
+	 public static void main(String[] args) {
+		 byte b=10;
+		 Integer i1=new Integer(10);
+		 Integer i2=new Integer(10);
+		 System.out.println(i1.toString()); 
+		 
+		 System.out.println(i2.toString()); 
+		 
+		 Integer i3=new Integer("abc");
+		 System.out.println(i3); 
+		 
+		 Float  float1=new Float(10.4);
+	}
+}

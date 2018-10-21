@@ -1,0 +1,11 @@
+
+final class Class {
+   int a=90;
+}
+
+public class FinalClass {
+	private void Main() {
+		
+
+	}
+}

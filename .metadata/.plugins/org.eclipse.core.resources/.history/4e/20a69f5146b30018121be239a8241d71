@@ -1,0 +1,14 @@
+ abstract public class Child extends AbstractClass{
+
+
+
+}
+class A extends Child{
+
+	@Override
+	void m1() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

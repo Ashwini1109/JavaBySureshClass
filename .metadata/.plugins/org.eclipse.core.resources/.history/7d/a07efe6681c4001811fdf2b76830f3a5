@@ -1,0 +1,16 @@
+public class ArrayExample {
+	public static void main(String[] args) {
+
+		int[] i;
+		int[] i1;
+		int i2[];
+		int[] j = new int[6];
+		j[0] = 1;
+		j[1] = 2;
+		j[3] = 4;
+		int[] k = { 1, 2, 3, 4, 56 };
+		for (int l = 0; l < j.length; l++) {
+			System.out.println(j);
+		}
+	}
+}

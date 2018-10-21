@@ -1,0 +1,8 @@
+
+public class StaticBlock implements Application{
+  
+	
+	  static{
+		  System.out.println("abc");
+	  }
+}

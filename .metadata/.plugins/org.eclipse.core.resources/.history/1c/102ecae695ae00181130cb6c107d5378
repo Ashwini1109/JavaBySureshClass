@@ -1,0 +1,22 @@
+
+class Parent{
+	
+	Parent m1()
+	{
+		Parent parent=new  Parent();
+		return parent;
+	}
+
+}
+ public class Child extends Parent{
+	Child m1()
+	{
+		System.out.println("childs");
+		return new Child();
+	}
+	
+	public static void main(String[] args) {
+		Child c = new Child();
+		c.m1();
+	}
+}

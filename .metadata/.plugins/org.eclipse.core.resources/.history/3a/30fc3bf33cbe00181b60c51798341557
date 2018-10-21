@@ -1,0 +1,6 @@
+public class AccessEnum {
+
+	public static void main(String[] args) {
+		MonthEnum jan = MonthEnum.apr;
+	}
+}

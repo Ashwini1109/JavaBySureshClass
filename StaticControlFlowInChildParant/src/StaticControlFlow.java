@@ -1,0 +1,46 @@
+import java.security.cert.CollectionCertStoreParameters;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+class Parant {
+	static{
+		System.out.println("static block parant");
+	}
+
+	static int i = 90;
+
+	static void m1() {
+		System.out.println("m1 parant");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("main child parant");
+	}
+}
+
+class Child extends Parant {
+	static {
+		System.out.println("static block child");
+	}
+
+	static int i = 90;
+
+	static void m2() {
+		System.out.println("m2 child");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("main child");
+	}
+}
+
+public class StaticControlFlow {
+
+	public static void main(String[] args) {
+		System.out.println("main");
+	}
+	
+	ArrayList<E>
+}
+

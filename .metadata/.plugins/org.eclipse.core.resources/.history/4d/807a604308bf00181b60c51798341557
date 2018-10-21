@@ -1,0 +1,25 @@
+
+public class MyExceptionHandling {
+     
+	public void m3(){
+		int i=90/0;
+	}
+	
+	public void m2(){
+		m3();
+	}
+	
+	public void m1(){
+		m2();
+	}
+	  public static void main(String[] args) {
+		  MyExceptionHandling exceptionHandling=new MyExceptionHandling();
+		  try{
+			  exceptionHandling.m1();
+			  System.out.println("abcd");
+		  }catch(Exception e){
+			 int i= 10/2;
+		  }
+		
+	}
+}

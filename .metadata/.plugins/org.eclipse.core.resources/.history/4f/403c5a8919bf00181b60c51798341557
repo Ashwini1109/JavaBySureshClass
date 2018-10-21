@@ -1,0 +1,22 @@
+class Parent{
+	 void m1() throws NullPointerException{
+		 
+	 }
+}
+public class ExceptionConcets extends Parent{
+	
+	void m1(){
+		 
+	 }
+         public static void main(String[] args) {
+			try {ExceptionConcets concets=new ExceptionConcets();
+				  
+			}
+			catch (NullPointerException e) {
+				System.out.println("null");
+			}catch (Exception e) {
+				System.out.println("abcd");
+			}
+			
+		}
+}

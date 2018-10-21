@@ -1,0 +1,9 @@
+
+public class Parent {
+	
+	Parent m1()
+	{
+		return new Parent();
+	}
+
+}

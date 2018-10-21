@@ -1,0 +1,14 @@
+
+interface I1{
+	
+}
+public enum MonthEnum {
+	jan,feb,march,april;
+	MonthEnum(){
+		System.out.println("con");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

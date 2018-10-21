@@ -1,0 +1,13 @@
+public class EnunConcept {
+	
+	@Override
+	public String toString() {
+		System.out.println("abc");
+		return super.toString();
+	}
+	
+	public static void main(String[] args) {
+		EnunConcept concept=new  EnunConcept();
+		System.out.println(concept.toString());
+	}
+}

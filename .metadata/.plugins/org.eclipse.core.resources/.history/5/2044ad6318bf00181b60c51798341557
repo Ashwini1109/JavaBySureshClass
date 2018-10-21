@@ -1,0 +1,10 @@
+
+public class ExceptionConcets {
+         public static void main(String[] args) {
+			try {
+				   throw new NullPointerException();
+			} catch (ClassCastException e) {
+				System.out.println("abcd");
+			}
+		}
+}

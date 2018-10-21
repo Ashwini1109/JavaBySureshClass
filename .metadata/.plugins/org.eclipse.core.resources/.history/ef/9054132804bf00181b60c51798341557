@@ -1,0 +1,14 @@
+
+public class ExceptionHandling {
+     
+	public void m2(){
+		
+	}
+	
+	public void m1(){
+		
+	}
+	  public static void main(String[] args) {
+		m1();
+	}
+}

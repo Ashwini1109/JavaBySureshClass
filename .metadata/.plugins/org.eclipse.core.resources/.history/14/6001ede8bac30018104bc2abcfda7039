@@ -1,0 +1,19 @@
+public class ExceptionJava {
+
+	public static void main(String[] args) {
+
+		for (int i = 0; i <= 9; i++) {
+			try {
+				System.out.println("try");
+				if (i == 5) {
+					i = i / 0;
+					break;
+				}
+			} catch (ArithmeticException e) {
+                System.out.println("catch");
+			} finally {
+				System.out.println("finally");
+			}
+		}
+	}
+}

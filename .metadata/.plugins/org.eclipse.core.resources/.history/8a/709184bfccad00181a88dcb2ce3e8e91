@@ -1,0 +1,12 @@
+public class EnunConcept {
+	
+	public static void main(String[] args) {
+		
+		EnunConcept e1=new  EnunConcept();
+		EnunConcept e2=new  EnunConcept();
+		System.out.println(e1==e2);
+		String string="abc";
+		String s1="abc";
+		System.out.println(s1.equals(string));
+	}
+}

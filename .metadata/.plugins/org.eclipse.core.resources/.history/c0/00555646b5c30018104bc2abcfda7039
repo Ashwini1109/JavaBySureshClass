@@ -1,0 +1,16 @@
+
+public enum MonthEnum implements Cloneable{
+	jan("january"),feb("february"),mar("march"),apr("april");
+	
+	private String month;
+	
+	MonthEnum(String month){
+		this.month=month;
+	}
+	
+	public String getMonth(){
+		return this.month;
+	}
+}
+
+

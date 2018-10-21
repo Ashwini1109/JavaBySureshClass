@@ -1,0 +1,16 @@
+ class Pt {
+
+	 private void m1(){
+		 
+	 }
+}
+
+ class Ch extends Pt {
+	 private void m1(){
+		
+	}
+}
+
+public class MethodOverriding {
+
+}

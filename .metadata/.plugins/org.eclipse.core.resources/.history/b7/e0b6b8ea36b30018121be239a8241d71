@@ -1,0 +1,14 @@
+abstract class Pt {
+
+	abstract void m1();
+}
+
+class Child extends Pt {
+	void m1() {
+
+	}
+}
+
+public class MethodOverriding {
+
+}

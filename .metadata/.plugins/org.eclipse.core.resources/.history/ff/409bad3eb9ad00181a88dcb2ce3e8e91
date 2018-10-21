@@ -1,0 +1,11 @@
+public class StaticVar {
+
+	static int i = 90;
+
+	void m1(){
+		System.out.println(i);
+	}
+	public static void main(String[] args) {
+		System.out.println(i);
+	}
+}

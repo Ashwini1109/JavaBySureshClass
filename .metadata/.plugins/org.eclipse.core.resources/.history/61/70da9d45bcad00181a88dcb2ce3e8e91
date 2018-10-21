@@ -1,0 +1,9 @@
+
+public class StaticBlock{
+  
+	
+	  static{
+		  System.out.println("abc");
+		  System.exit(0);
+	  }
+}

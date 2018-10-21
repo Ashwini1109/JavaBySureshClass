@@ -1,0 +1,7 @@
+
+public enum MonthEnum{
+	jan("january"),feb("february"),mar("march"),apr("april");
+	MonthEnum(String month){
+		System.out.println("con");
+	}
+}

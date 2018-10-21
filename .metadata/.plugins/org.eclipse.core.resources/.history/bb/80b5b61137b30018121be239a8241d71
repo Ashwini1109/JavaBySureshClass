@@ -1,0 +1,12 @@
+abstract class Pt {
+
+	abstract void m1();
+}
+
+abstract class Ch extends Pt {
+	abstract void m1();
+}
+
+public class MethodOverriding {
+
+}

@@ -1,0 +1,22 @@
+public class EnunConcept implements Cloneable{
+	int i;
+	int j;
+	public static void main(String[] args) {
+		EnunConcept e2=null;
+		EnunConcept e1=new  EnunConcept();
+		e1.i=10;
+		e1.j=20;
+		try {
+			e2=(EnunConcept)e1.clone();
+		} catch (Exception e) {
+			
+		}
+		System.out.println(e1.i+"======"+e1.j);
+		e1.i=90;
+		e1.j=100;
+		
+		System.out.println(e1.i+"======"+e1.j);
+		
+		System.out.println(e1.i+"======"+e1.j);
+	}
+}

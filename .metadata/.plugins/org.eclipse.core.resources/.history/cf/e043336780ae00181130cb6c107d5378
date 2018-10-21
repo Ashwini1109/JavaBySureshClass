@@ -1,0 +1,11 @@
+class parant{
+	int i=10;
+}
+
+public class ShedawingSuper extends parant{
+    
+	int i=90;
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,6 @@
+public class EnunConcept {
+	public static void main(String[] args) {
+		EnunConcept concept=new  EnunConcept();
+		System.out.println(concept);
+	}
+}

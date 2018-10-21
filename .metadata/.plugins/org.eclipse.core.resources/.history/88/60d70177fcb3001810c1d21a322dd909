@@ -1,0 +1,10 @@
+
+public class WrapperCLaaaExample {
+
+	 public static void main(String[] args) {
+		 byte b=10;
+		 Integer i1=new Integer(b);
+		 System.out.println(i1.toString()); 
+		
+	}
+}

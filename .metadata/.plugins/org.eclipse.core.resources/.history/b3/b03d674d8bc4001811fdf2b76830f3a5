@@ -1,0 +1,56 @@
+public class ArrayExample {
+	public static void main(String[] args) {
+
+		/*int[] i;
+		int[] i1;
+		int i2[];
+		int[] j = new int[6];
+		j[0] = 1;
+		j[1] = 2;
+		j[3] = 4;
+		int[] k = { 1, 2, 3, 4, 56 };
+		for (int l = 0; l < j.length; l++) {
+			System.out.println(j[l]);
+		}*/
+		
+		/*int value=1;
+		int [][]a=new int[3][];
+		a[0]=new int[3];
+		a[1]=new int [2];
+		a[2]=new int [4];
+		System.out.println(a);
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		for(int j=0;j<a.length;j++){	
+			   for(int k=0;k<a[j].length;k++){
+				     a[j][k]=value++;
+			   }
+		}
+		
+		for(int j=0;j<a.length;j++){	
+			   for(int k=0;k<a[j].length;k++){
+				     System.out.println(a[j][k]);
+			   }
+		}
+		*/
+		
+		int value=1;
+		int [][][]a=new int[2][2][2];
+		System.out.println(a);
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		for(int j=0;j<a.length;j++){	
+			   for(int k=0;k<a[j].length;k++){
+				   for(int l=0;l<a[i][j].length;l++){
+				     a[j][k][l]=value++;
+			   }
+		}
+		}	
+		for(int j=0;j<a.length;j++){	
+			   for(int k=0;k<a[j].length;k++){
+				     System.out.println(a[j][k]);
+			   }
+		}
+		
+	}
+}

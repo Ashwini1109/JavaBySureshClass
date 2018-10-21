@@ -1,0 +1,17 @@
+
+public class StaticInstanceControlFLow {
+   
+	int i=80;
+	
+	static int j=80;
+	
+	{
+		
+	}
+	
+	static{
+		
+	}
+	
+	
+}

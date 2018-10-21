@@ -1,0 +1,15 @@
+
+public class Parent {
+	
+	Parent m1()
+	{
+		return new Parent();
+	}
+
+}
+class Child extends Parent{
+	Parent m1()
+	{
+		return new Child();
+	}
+}
